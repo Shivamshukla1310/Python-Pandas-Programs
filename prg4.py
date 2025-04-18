@@ -6,3 +6,11 @@
 # 2. dictionary 
 # 3. from a file 
 # 4.by creating empty data frame
+import pandas as pd
+datad = {'Name':['AAA','BBB','CCC'],
+         'Age':[25,35,34],
+         'City':['Pune','Mumbai','Nasik']}
+
+# create a dataframe from the dictionary
+df = pd.Dataframe(dated)
+print(df)
